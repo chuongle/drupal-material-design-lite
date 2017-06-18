@@ -54,6 +54,8 @@
     'js-form-item-' ~ name|clean_class,
     'mdl-' ~ type|clean_class,
     'mdl-js-'  ~ type|clean_class,
+    type == 'select' ? ['mdlext-selectfield', 'mdlext-js-selectfield', 'mdlext-selectfield--floating-label'],
+    'mdl-' ~ type|clean_class ~ '--floating-label',
     title_display not in ['after', 'before'] ? 'form-no-label',
     disabled == 'disabled' ? 'form-disabled',
     errors ? ['form-item--error', 'mdl-textfield__error'],

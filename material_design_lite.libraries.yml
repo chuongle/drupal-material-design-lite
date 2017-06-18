@@ -5,3 +5,9 @@ global-styling:
       node_modules/material-design-lite/material.min.css: {}
   js:
     node_modules/material-design-lite/material.min.js: {}
+    material_design_lite.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.once
+    - core/drupal
+    - core/drupalSettings
