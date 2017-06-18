@@ -1,0 +1,15 @@
+name: Material Design Lite
+type: theme
+description: A Drupal 8 theme implements Material Design Lite.
+package: Custom
+core: 8.x
+libraries:
+  - material_design_lite/global-styling
+
+regions:
+  header: 'Header'
+  pre_content: 'Pre-content'
+  breadcrumb: Breadcrumb
+  highlighted: Highlighted
+  help: Help
+  content: Content
